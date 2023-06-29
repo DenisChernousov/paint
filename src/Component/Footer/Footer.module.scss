@@ -1,0 +1,89 @@
+.footer{
+  background: #E1EDE6;
+  max-height: 10.5rem;
+}
+.inner{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.44rem;
+  padding-bottom: 1.44rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.logoInner{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.56rem;
+  .logoText{
+    color: #598D66;
+    font-size: 1.25rem;
+    font-family: Raleway;
+    font-weight: 700;
+    margin-left: 0.5rem;
+  }
+}
+.contact{
+  .tel{
+    color: #2C2D35;
+    font-size: 1.25rem;
+    font-family: Raleway;
+    font-weight: 500;
+    text-decoration: none;
+
+  }
+  margin-bottom: 0.5rem;
+}
+.item{
+  color: #86928B;
+  font-size: 1.125rem;
+  font-family: Raleway;
+  font-weight: 500;
+}
+.middle {
+  display: flex;
+  .itemMid + .itemMid{
+    margin-left: 3.62rem;
+  }
+  .title{
+    color: #2C2D35;
+    font-size: 1.25rem;
+    font-family: Raleway;
+    font-weight: 500;
+    margin-bottom: .38rem;
+  }
+
+}
+.list{
+  li{
+    a {
+      color: #86928B;
+      font-size: 1.125rem;
+      font-family: Raleway;
+      font-weight: 500;
+      line-height: 150%;
+      text-decoration: none;
+    }
+  }
+}
+.social{
+  ul {
+    display: flex;
+    li + li{
+      margin-left: 1.87rem;
+    }
+  }
+
+  margin-bottom: 0.68rem;
+}
+.jur{
+  display: flex;
+  flex-direction: column;
+  span{
+    color: #86928B;
+    font-size: 0.75rem;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: .38rem;
+  }
+}

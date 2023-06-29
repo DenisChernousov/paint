@@ -1,0 +1,40 @@
+.inner{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 4.38rem;
+  margin-bottom: 4.38rem;
+}
+.left{
+  margin-right: 1.88rem;
+}
+.right{
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .info{
+    color: #2C2D35;
+    font-size: 1.125rem;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 1.25rem;
+  }
+}
+.title{
+
+  h3{
+    color: #2C2D35;
+    font-size: 2.5rem;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 110%;
+    margin-bottom: 1.25rem;
+  }
+}
+.teamImg{
+  img{
+    margin-right: 1.88rem;
+  }
+}
